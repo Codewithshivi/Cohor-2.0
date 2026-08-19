@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: oppo;
+    src: url(./oppofont.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: oppo;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+}
+#oppo{
+    padding-right: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    padding-left: 23px;
+    font-size: 18px;
+}
+i{
+    font-size: 25px;
+}
+
+#center{
+    width: 100%;
+  height: 92%;
+  background-image: url(./mainimg.webp);
+  background-size: cover;
+  background-position: top ;
+  padding: 80px ;
+}
+
+h1{
+    font-size: 65px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+p{
+    margin-top: 270px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#btn-2{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 8px 12px;
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+#btn-2:hover{
+    background-color: black;
+    color: white;
+}
+
+#btn-3:hover{
+    background-color: transparent;
+    color: black;
+        border: 2px solid black;
+}
+
+#btn-3{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 19px;
+    border: none;
+}
